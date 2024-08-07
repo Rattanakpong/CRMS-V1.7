@@ -1,0 +1,113 @@
+/* Job  */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+header {
+  background: #5bdd52;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+.intro {
+  background: #ecf0f1;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.job-section {
+  background: white;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.job-section h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+.job-list {
+  list-style-type: none;
+  padding: 0;
+}
+.job-list li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+.job-list li:hover {
+  background-color: #e0e0e0;
+}
+.resources {
+  background: #3498db;
+  color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+.resources a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+}
+.resources a:hover {
+  border-bottom: 1px solid white;
+}
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+.image-container img {
+  max-width: 30%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+@media(max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+  .image-container img {
+      max-width: 100%;
+  }
+}
+/* Job  */
+.job-section button {
+  background-color: #175f1b; /* Light green background */
+  border:none; 
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get the element to sit next to others */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px;
+  margin-bottom: 20px;
+
+}
+
+.job-section button:hover {
+  background-color: #2fff00; /* Slightly darker green on hover */
+  color:black;
+}

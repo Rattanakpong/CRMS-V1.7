@@ -1,0 +1,82 @@
+
+
+
+/* home */
+.caption {
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.caption h2{
+    font-size: 40px;
+    font-weight: 600;
+    color:hsl(99, 79%, 30%);
+}
+.caption p{
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+
+
+/* edu */
+.container h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #175f1b;
+}
+.container h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: #175f1b;
+}
+.container p{
+    max-width: 80%; /* Set a maximum width for the paragraph */
+    margin: 0 auto; /* Center the paragraph within its container */
+    padding: 15px;
+}
+.container button {
+    background-color: #175f1b; /* Light green background */
+    border:none; 
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get the element to sit next to others */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .container button:hover {
+    background-color: #2fff00; /* Slightly darker green on hover */
+  }
+/* history */
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    height: 200px; /* Ensure all images have the same height */
+    width: 100%; /* Ensure all images stretch to full width of container */
+    object-fit: cover; /* Ensure images maintain aspect ratio and fill the container */
+    border-radius: 10px; /* Add rounded corners to images */
+}
+
+.img-caption {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(99, 79%, 30%);
+}
+

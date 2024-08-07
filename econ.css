@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all-content{
+background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+background: #048709;
+border-radius: 10px;
+}
+html::-webkit-scrollbar{
+width: 10px;
+}
+/* navbar */
+#navbar{
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  }
+  #logo img{
+  border-radius: 10px;
+  width:90px;
+  margin-left: 40px;
+  height: 90px;
+  }
+  .navbar-nav{
+  margin-left: 50px;
+  }
+  .nav-item .nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+  }
+  .nav-item .nav-link:hover{
+  background: #3a8710;
+  border-radius: 5px;
+  color: black;
+  }
+  #navbar form button{
+  background: black;
+  color: white;
+  border: 1px solid white;
+  }
+  /* navbar */
+.guide img{
+  width: 100%;
+  max-height: 550px;
+  object-fit:contain cover;
+}
+.guide h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #048709;
+  margin-top: 20px;
+  border-bottom-style:solid;
+}
+.guide h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: #793110;
+  margin-top: 10px;
+}
+.guide p{
+  font-size: 20px;
+  color: #191d19;
+}
+.guide li{
+  font-size: 20px;
+  color: #191d19;
+}
+.guide a img{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.exchange{
+  text-align: center;
+  background: #c0ccc6;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  margin-top: 10px;
+}
+.mar10{
+  margin: 10px 0;
+}
+.pad10{
+  padding: 10px 20px;
+}
+
+input, select{
+  margin: 10px;
+  padding: 7px;
+  font-size: 10px;
+  outline: none;  
+}
+input{
+  width: 25ch;
+}
+button{
+  color: rgb(0, 0, 0); 
+  margin: 10px; 
+  border-color: #3a8710;
+  padding: 0 40px;
+  font-size: 10px;
+  outline: none;
+}
+
+/* footer */
+.footer-logo img{
+  width: 90px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  }
+  html{
+  scroll-behavior: smooth;
+  }
+  .arrow{
+  position: fixed;
+  border-radius: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  }
+  .footer {
+  background-color: #198754;
+  color: white;
+  padding: 20px 0;
+  }
+  .footer a {
+  color: white;
+  }
+  .footer a:hover {
+  text-decoration: underline;
+  }
+  .footer .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  }

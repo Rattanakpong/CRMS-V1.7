@@ -1,0 +1,55 @@
+
+.card-header {
+    background-color: #28a745 !important;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-body ol {
+    padding-left: 1rem;
+}
+
+.card-body ol li {
+    margin-bottom: 1.5rem;
+}
+
+.card-body p {
+    margin-bottom: 0.5rem;
+}
+
+.card-body ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-body ul li {
+    margin-bottom: 0.5rem;
+}
+
+.img-fluid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-container h4 {
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+    height: 450px;
+}
